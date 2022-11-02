@@ -8,6 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.1.2",
     "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.3"
   }
 }
