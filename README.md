@@ -2,7 +2,7 @@
 
 Listagem de palavras, disponibilizadas através da dependência: __word-list-json__.
 
-Demonstração do projeto neste [link](https://markdownlivepreview.com/).
+Demonstração do projeto neste [link](https://dictionary-nine-topaz.vercel.app/).
 
 ## Tecnologias utilizadas
 
