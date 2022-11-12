@@ -3,8 +3,11 @@
     <h2 class="title" v-if="showTitle">Words List</h2>
     <div class="grid-container" id="wordList" ref="scrollElement"
       style="max-height: 50vh; overflow: scroll">
-      <NuxtLink class="card" :to="`/word/${word}`"
-        v-for="(word, index) in wordsList" :key="index">
+      <NuxtLink 
+        class="card" 
+        :to="`/${word}`"
+        v-for="(word, index) in wordsList" 
+        :key="index">
         {{ word }}
       </NuxtLink>
     </div>

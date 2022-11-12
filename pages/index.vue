@@ -7,10 +7,6 @@
 </template>
 
 <script setup lang="ts">
-// import { useDictionaryStore } from '@/stores/dictionary';
-// const store = useDictionaryStore();
-// store.init();
-
 
 
 </script>

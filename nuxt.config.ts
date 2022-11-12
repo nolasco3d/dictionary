@@ -1,6 +1,10 @@
+// import { BASE_URL_WORD_API } from './composables/utils';
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@pinia/nuxt', '@vueuse/nuxt','@nuxtjs/tailwindcss'],
+  modules: [
+    '@vueuse/nuxt',
+    '@pinia/nuxt', 
+    '@nuxtjs/tailwindcss'],
   tailwindcss: {
     viewer: false
   },
@@ -8,5 +12,10 @@ export default defineNuxtConfig({
     global: true,
     dirs: ['~/components']
   },
-  css: ['~/assets/css/global.css']
+  css: ['~/assets/css/global.css'],
+  runtimeConfig: {
+    public: {
+      BASE_URL_WORD_API: 'https://api.dictionaryapi.dev/api/v2/entries/en/'
+    }
+  }
 })
