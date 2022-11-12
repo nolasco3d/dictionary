@@ -3,7 +3,7 @@
     <h2 class="title" v-if="showTitle">History</h2>
     <div class="grid-container"
       v-if="history?.length > 0 || store.history.length > 0">
-      <NuxtLink class="card" :to="`/word/${word}`"
+      <NuxtLink class="card" :to="`/${word}`"
         v-for="(word, index) in history || store.history " :key="index">
         {{ word }}
       </NuxtLink>

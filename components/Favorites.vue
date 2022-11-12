@@ -3,7 +3,7 @@
     <h2 class="title" v-if="showTitle">Favorites</h2>
     <div class="grid-container"
       v-if="favorites?.length > 0 || store.favorites.length > 0">
-      <NuxtLink class="card" :to="`/word/${word}`"
+      <NuxtLink class="card" :to="`/${word}`"
         v-for="(word, index) in favorites || store.favorites " :key="index">
         {{ word }}
       </NuxtLink>
